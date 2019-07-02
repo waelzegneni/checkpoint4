@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+     <title>Courses</title>
+     <link rel="stylesheet" href="Css/style.css">
+
+
+</head>
+
+<body>
+     <div class="nav-container">
+          <div class="nav-bar">
+               <div class="img-reduce">
+                    <img src="Res/section2GMCLogo.png"
+                         alt="In case you have a low connection, this is a beautiful picture" width="40px"
+                         height="40px">
+               </div>
+               <div class="nav-item">
+                    <a href="index.html">Home</a>
+               </div>
+               <div class="nav-item">
+                    <a href="courses.html">Courses</a>
+               </div>
+               <div class="nav-item">
+                    <a href="contact.html">Contact</a>
+               </div>
+
+
+          </div>
+
+     </div>
+     <br> <br>
+
+     <div class="container">
+          <div class="img-position">
+          </div>
+          <center>
+               <h2 class="centered1">All Our Courses</h2>
+          </center>
+     </div>
+     <div class="center-page">
+          <div>
+               <img src="Res/section3image1.png" alt="" height="250px" width="250px" class="gmc-images">
+               <img src="Res/section3image2.png" alt="" height="250px" width="250px" class="gmc-images">
+               <img src="Res/section3image3.png" alt="" height="250px" width="250px" class="gmc-images">
+          </div>
+          <br>
+          <div>
+               <img src="Res/section3image1.png" alt="" height="250px" width="250px" class="gmc-images">
+               <img src="Res/section3image2.png" alt="" height="250px" width="250px" class="gmc-images">
+               <img src="Res/section3image3.png" alt="" height="250px" width="250px" class="gmc-images">
+          </div>
+          <br>
+          <div class="courses-margin">
+               <img src="Res/section3image1.png" alt="" height="250px" width="250px" class="gmc-images">
+               <img src="Res/section3image2.png" alt="" height="250px" width="250px" class="gmc-images">
+               <img src="Res/section3image3.png" alt="" height="250px" width="250px" class="gmc-images">
+          </div>
+          <br> <br>
+          <div class="feedback">Feedback</div>
+
+          <br> <br>
+
+          <div class="move">
+               <button class="button" id="bold">B</button>
+               <button class="button" id="italic">I</button>
+               <button class="button" id="underline">Underline</button>
+               <div class="selection">
+                    <select id="fontsize" onchange="handleFontSize()">
+                         <option value="2px">2px</option>
+                         <option value="4px">4px</option>
+                         <option value="6px">6px</option>
+                         <option value="8px">8px</option>
+                         <option value="10px">10px</option>
+                         <option value="12px">12px</option>
+                         <option>14px</option>
+                         <option>70px</option>
+                    </select>
+                    <img src="Res/1883329.png" height="19px" width="35px" class="size-icon">
+
+               </div>
+               <div class="selection">
+                    <select  id="textfamily" onchange="handleTextFamily()">
+                         <option value="cursive">Tahoma</option>
+                         <option value="Geneva">Geneva</option>
+                         <option value="Verdana">Verdana</option>
+
+                    </select>
+                    <img src="Res/1861186.svg" height="19px" width="35px" class="size-icon">
+               </div>
+               <br>
+               <br>
+               <textarea cols="100" rows="7" placeholder="What do you think about our website? "
+                    class="text-size"  id="textArea"></textarea>
+          </div>
+          <br><br>
+     </div>
+
+</body>
+ <script src="js/script.js"></script>
+</html>
