@@ -4,6 +4,12 @@
 <head>
      <title>Courses</title>
      <link rel="stylesheet" href="Css/style.css">
+     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+
 
 
 </head>
@@ -32,6 +38,7 @@
      </div>
      <br> <br>
 
+
      <div class="container">
           <div class="img-position">
           </div>
@@ -39,23 +46,66 @@
                <h2 class="centered1">All Our Courses</h2>
           </center>
      </div>
+
      <div class="center-page">
-          <div>
-               <img src="Res/section3image1.png" alt="" height="250px" width="250px" class="gmc-images">
-               <img src="Res/section3image2.png" alt="" height="250px" width="250px" class="gmc-images">
-               <img src="Res/section3image3.png" alt="" height="250px" width="250px" class="gmc-images">
+          <div class="imginline">
+               <div class="divfix container1">
+                    <img src="Res/section3image1.png" alt="" height="250px" width="250px" class="gmc-images" id="img1">
+                    <button class="button1">View more</button>
+               </div>
+               <div class="divfix container1">
+                    <img src="Res/section3image2.png" alt="" height="250px" width="250px" class="gmc-images" id="img2">
+                    <button class="button1">View more</button>
+               </div>
+
+               <div class="divfix container1">
+                    <img src="Res/section3image3.png" alt="" height="250px" width="250px" class="gmc-images">
+                    <button class="button1">View more</button>
+
+               </div>
+
+          </div>
+          <div class="dialog1">
+                    This is GoMyCode Track.
+                    Each Track has its own goal
+                    By adopting this Track, you choose your own goal.
           </div>
           <br>
-          <div>
-               <img src="Res/section3image1.png" alt="" height="250px" width="250px" class="gmc-images">
-               <img src="Res/section3image2.png" alt="" height="250px" width="250px" class="gmc-images">
-               <img src="Res/section3image3.png" alt="" height="250px" width="250px" class="gmc-images">
+          
+          <div class="imginline">
+               <div class=" container1">
+                    <img src="Res/section3image1.png" alt="" height="250px" width="250px" class="gmc-images" >
+                    <button class="button1">View more</button>
+               </div>
+               <div class=" container1">
+                    <img src="Res/section3image2.png" alt="" height="250px" width="250px" class="gmc-images">
+                    <button class="button1">View more</button>
+               </div>
+
+               <div class=" container1">
+                    <img src="Res/section3image3.png" alt="" height="250px" width="250px" class="gmc-images">
+                    <button class="button1">View more</button>
+
+               </div>
+
           </div>
           <br>
-          <div class="courses-margin">
-               <img src="Res/section3image1.png" alt="" height="250px" width="250px" class="gmc-images">
-               <img src="Res/section3image2.png" alt="" height="250px" width="250px" class="gmc-images">
-               <img src="Res/section3image3.png" alt="" height="250px" width="250px" class="gmc-images">
+          <div class="imginline">
+               <div class="divfix container1">
+                    <img src="Res/section3image1.png" alt="" height="250px" width="250px" class="gmc-images" id="img1">
+                    <button class="button1">View more</button>
+               </div>
+               <div class="divfix container1">
+                    <img src="Res/section3image2.png" alt="" height="250px" width="250px" class="gmc-images" id="img2">
+                    <button class="button1">View more</button>
+               </div>
+
+               <div class="divfix container1">
+                    <img src="Res/section3image3.png" alt="" height="250px" width="250px" class="gmc-images">
+                    <button class="button1">View more</button>
+
+               </div>
+
           </div>
           <br> <br>
           <div class="feedback">Feedback</div>
@@ -81,7 +131,7 @@
 
                </div>
                <div class="selection">
-                    <select  id="textfamily" onchange="handleTextFamily()">
+                    <select id="textfamily" onchange="handleTextFamily()">
                          <option value="cursive">Tahoma</option>
                          <option value="Geneva">Geneva</option>
                          <option value="Verdana">Verdana</option>
@@ -91,12 +141,13 @@
                </div>
                <br>
                <br>
-               <textarea cols="100" rows="7" placeholder="What do you think about our website? "
-                    class="text-size"  id="textArea"></textarea>
+               <textarea cols="100" rows="7" placeholder="What do you think about our website? " class="text-size"
+                    id="textArea"></textarea>
           </div>
           <br><br>
      </div>
 
 </body>
- <script src="js/script.js"></script>
+<script src="js/script.js"></script>
+
 </html>

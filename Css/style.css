@@ -118,15 +118,26 @@ background-color: #417274;
    padding: 60px;
    margin-left: 20px;
    margin-right: 10px;
+
 }
 
 .gmc-images:hover{
    outline-style: solid;
    outline-color: black;
-   outline-width: 4px;
-   transition: 0.2s;
+   outline-width: 3.5px;
+   transition: 0.3s;
+   filter: opacity(0.6);
 
 }
+
+.button-fixing{
+   position: absolute;
+}
+
+.displayinline{
+   display: inline-block;
+}
+
 
 .h11 a{
    color: aliceblue;
@@ -225,7 +236,7 @@ hr{
    font-size: 20px;
    height: 150px;
    width: 700px;
-
+}
 .format{
    width :500px;
    background-color :red;
@@ -234,7 +245,17 @@ hr{
 }
 
 .center-page{
-   margin-left: 5% ;
+   margin-left: 60px ;
+}
+
+.div-fix{
+   width: 250px;
+   height: 250px;
+   
+}
+
+.image-inline{
+   display: inline-flex;
 }
 
 .length-select{
@@ -331,3 +352,35 @@ fieldset{
    width: 500px;
   
 }
+
+
+.container1{
+   position: relative;
+   width: 50%;
+}
+
+.button1 {
+   position: absolute;
+   top: 45%;
+   left: 37%;
+   
+ }
+
+ .button1 {
+   display: none;
+}
+
+img:hover + .button1, .button1:hover {
+   display: flex;
+}
+
+.imginline{
+   display:flex;
+}
+
+.dialog{
+   background-color: rgb(161, 153, 153);
+
+}
+
+
